@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://localhost:9999">
-    <img src="https://avatars.githubusercontent.com/u/156182695?s=200&v=4" alt="Logo" style="width: 50%;">
+    <img src="./logo_text.svg" alt="Logo" style="width: 70%;">
   </a>
 
 
@@ -112,11 +112,14 @@ This project uses IoT devices (LED, curtains, sensors) and MQTT for device contr
 
 | Category | Technology |
 |----------|------------|
-| Frontend | [![React][React.js]][React-url][![npm][npm]][npm-url][![Bootstrap][Bootstrap.com]][Bootstrap-url][![Socket.io][Socket.io]][Socket.io-url][![JavaScript][JavaScript.js]][JavaScript-url][![Figma][Figma]][Figma-url] |
-| Face Identify Server | [![Flask][Flask]][Flask-url][![OpenCV][OpenCV]][OpenCV-url][![Socket.io][Socket.io]][Socket.io-url][![Python][Python.org]][Python-url] |
-| Kiosk API Server | [![Nodejs][Nodejs]][Nodejs-url][![npm][npm]][npm-url][![Prisma][Prisma]][Prisma-url][![JavaScript][JavaScript.js]][JavaScript-url] |
-| Database | [![MySQL][MySQL]][MySQL-url][![Prisma][Prisma]][Prisma-url] |
-| Development Environment | [![macOS][macOS]][macOS-url] |
+| Application | [![Flutter][Flutter]][Flutter-url][![Dart][Dart]][Dart-url][![Figma][Figma]][Figma-url] |
+| Server | [![Nodejs][Nodejs]][Nodejs-url][![Express][Express]][Express-url][![npm][npm]][npm-url][![JavaScript][JavaScript.js]][JavaScript-url][![MQTT][MQTT]][MQTT-url] |
+| Database | [![MongoDB][MongoDB]][MongoDB-url] |
+| IoT Device | [![Raspberry][Raspberry]][Raspberry-url][![Ubuntu][Ubuntu]][Ubuntu-url][![Python][Python.org]][Python-url][![MQTT][MQTT]][MQTT-url] |
+| Development Environment | [![macOS][macOS]][macOS-url][![Window][Window]][Window-url][![Linux][Linux]][Linux-url] |
+| Collaborative Software | [![Git][Git]][Git-url][![GitHub][GitHub]][GitHub-url][![Notion][Notion]][Notion-url][![Skype][Skype]][Skype-url] | 
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -390,8 +393,8 @@ Each step is detailed in the `README.md` file of the respective folder, allowing
 [webos-url]: https://www.webosose.org/samples/2023/12/21/facial-recognition-kiosk-using-webos
 [product-screenshot]: images/screenshot.png
 
-[React.js]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000
-[React-url]: https://reactjs.org/
+[Flutter]: https://img.shields.io/badge/Flutter-02569B.svg?style=for-the-badge&logo=Flutter&logoColor=white
+[Flutter-url]: https://flutter.dev/
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
@@ -399,26 +402,26 @@ Each step is detailed in the `README.md` file of the respective folder, allowing
 [Figma]: https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=fff
 [Figma-url]: https://www.figma.com/
 
-[Flask]: https://img.shields.io/badge/Flask-000?style=for-the-badge&logo=flask&logoColor=fff
-[Flask-url]: https://flask.palletsprojects.com/en/3.0.x/
+[Express]: https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white
+[Express-url]: https://expressjs.com/
 
-[Socket.io]: https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=fff
-[Socket.io-url]: https://socket.io/
+[Raspberry]: https://img.shields.io/badge/Raspberry%20Pi-A22846.svg?style=for-the-badge&logo=Raspberry-Pi&logoColor=white
+[Raspberry-url]: https://www.raspberrypi.com/
 
 [Nodejs]: https://img.shields.io/badge/Node.js-393?style=for-the-badge&logo=nodedotjs&logoColor=fff
 [Nodejs-url]: https://nodejs.org/en
 
-[Prisma]: https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=fff
-[Prisma-url]: https://www.prisma.io/
-
-[OpenCV]: https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=fff
-[OpenCV-url]: https://opencv.org/
-
-[npm]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=fff
+[npm]: https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white
 [npm-url]: https://www.npmjs.com/
 
-[MySQL]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=fff
-[MySQL-url]: https://www.mysql.com/
+[MQTT]: https://img.shields.io/badge/MQTT-660066.svg?style=for-the-badge&logo=MQTT&logoColor=white
+[MQTT-url]: https://mqtt.org/
+
+[Dart]: https://img.shields.io/badge/Dart-0175C2.svg?style=for-the-badge&logo=Dart&logoColor=white
+[Dart-url]: https://dart.dev/
+
+[MongoDB]: https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
 
 [Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
@@ -434,3 +437,31 @@ Each step is detailed in the `README.md` file of the respective folder, allowing
 
 [macOS]: https://img.shields.io/badge/macOS-000?style=for-the-badge&logo=macOS&logoColor=fff
 [macOS-url]: https://support.apple.com/ko-kr/macOS
+
+
+[Window]: https://img.shields.io/badge/Windows-0078D4.svg?style=for-the-badge&logo=Windows&logoColor=white
+[Window-url]: https://www.microsoft.com/en-in/windows?r=1
+[Notion]: https://img.shields.io/badge/Notion-000000.svg?style=for-the-badge&logo=Notion&logoColor=white
+[Notion-url]: https://www.notion.so/
+
+
+[Skype]: https://img.shields.io/badge/Skype-00AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white
+[Skype-url]: https://skype.com/
+
+
+[GitHub]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
+
+[GitHub-url]: https://github.com/
+
+
+[Git]: https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white
+[Git-url]: https://git-scm.com/
+
+
+[Ubuntu]: https://img.shields.io/badge/Ubuntu-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white
+
+[Ubuntu-url]: https://ubuntu.com/
+
+[Linux]: https://img.shields.io/badge/Linux-FCC624.svg?style=for-the-badge&logo=Linux&logoColor=black
+
+[Linux-url]: https://www.linux.org/
