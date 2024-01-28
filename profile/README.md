@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://localhost:9999">
-    <img src="https://raw.githubusercontent.com/knu-sunshine/.github/fab105dbeebc68d380808fcd844568bb62ebc5a5/profile/logo_text.svg" alt="Logo" style="width: 70%;">
+    <img src="https://raw.githubusercontent.com/knu-sunshine/.github/fab105dbeebc68d380808fcd844568bb62ebc5a5/profile/logo_text.svg" alt="Logo" style="width: 50%;">
   </a>
 
 
