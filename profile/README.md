@@ -96,7 +96,7 @@ This project uses IoT devices (LED, curtains, sensors) and MQTT for device contr
 <details>
   <summary>🖼️ System Architecture 🖼️</summary>
   <p align="center" style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/noFlowWater/signage_solution/assets/112642604/7e142fd6-f8c1-4aeb-afb7-12106b938a5f" alt="System Architecture" style="width: 99%;">
+    <img src="https://github.com/knu-sunshine/.github/assets/112642604/53ec6c31-136e-45c1-8ae0-cb067f0a0326" alt="System Architecture" style="width: 99%;">
   </p>
 </details>
 
