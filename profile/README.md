@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://localhost:9999">
-    <img src="./logo.svg" alt="Logo" style="width: 50%;">
+    <img src="https://avatars.githubusercontent.com/u/156182695?s=200&v=4" alt="Logo" style="width: 50%;">
   </a>
 
 
