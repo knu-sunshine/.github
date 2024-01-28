@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://localhost:9999">
-    <img src=".github/profile/title.png" alt="Logo" style="width: 80%;">
+    <img src="./title.png" alt="Logo" style="width: 80%;">
   </a>
 
 
