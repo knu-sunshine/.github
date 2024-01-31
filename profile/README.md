@@ -1,25 +1,5 @@
 <a name="readme-top"></a>
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-<!--
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![webos][webos-shield]][webos-url]
--->
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -34,7 +14,7 @@
     Smart home app & server solution for lighting, curtain control, sunrise/sunset tracking, and automated environment-based controls.
     <br />
     <br />
-    <a href="https://localhost:9999">🎥 View Demo</a>
+    <a href="https://youtu.be/4zAUcYDIZ2c">🎥 View Demo</a>
     ·
     <a href="https://localhost:9999">🐞 Report Bug</a>
     ·
@@ -116,10 +96,11 @@ This project uses IoT devices (LED, curtains, sensors) and MQTT for device contr
 |----------|------------|
 | Application | [![Flutter][Flutter]][Flutter-url][![Dart][Dart]][Dart-url][![Figma][Figma]][Figma-url] |
 | Server | [![Nodejs][Nodejs]][Nodejs-url][![Express][Express]][Express-url][![npm][npm]][npm-url][![JavaScript][JavaScript.js]][JavaScript-url][![MQTT][MQTT]][MQTT-url] |
+| Deployment | [![Amazon_AWS][Amazon_AWS]][Amazon_AWS-url][![Amazon_EC2][Amazon_EC2]][Amazon_EC2-url][![Firebase][Firebase]][Firebase-url] |
 | Database | [![MongoDB][MongoDB]][MongoDB-url] |
 | IoT Device | [![Raspberry][Raspberry]][Raspberry-url][![Ubuntu][Ubuntu]][Ubuntu-url][![Python][Python.org]][Python-url][![MQTT][MQTT]][MQTT-url] |
 | Development Environment | [![macOS][macOS]][macOS-url][![Window][Window]][Window-url][![Linux][Linux]][Linux-url] |
-| Collaborative Software | [![Git][Git]][Git-url][![GitHub][GitHub]][GitHub-url][![Notion][Notion]][Notion-url][![Skype][Skype]][Skype-url] | 
+| Collaborative Software | [![Git][Git]][Git-url][![GitHub][GitHub]][GitHub-url][![Notion][Notion]][Notion-url][![Skype][Skype]][Skype-url][![KakaoTalk][KakaoTalk]][KakaoTalk-url] | 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,164 +177,7 @@ Each step is detailed in the `README.md` file of the respective folder, allowing
 <!-- USAGE EXAMPLES -->
 ## Usage Screenshot 
 
-
-<details>
-  <summary>🖼️ Home 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="홈 화면" src="https://github.com/noFlowWater/signage_solution/assets/112642604/966af761-2f10-447f-90cb-241577823e90">
-  </p>
-</details>
-<details>
-<summary>🖼️ User 🖼️</summary>
-<br>
-
-### Select User Mode
-<details>
-  <summary>🖼️ 1. Select User Mode 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="사용자 모드 선택" src="https://github.com/noFlowWater/signage_solution/assets/112642604/211d6ba5-61ba-488c-bff9-eb5d333f68a8">
-  </p>
-</details>
-
-### User Registration
-
-<details>
-  <summary>🖼️ 1. Enter User Basic Information 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="사용자 기본정보 입력" src="https://github.com/noFlowWater/signage_solution/assets/112642604/142c1e9f-d351-465c-b968-f7da5d178d3a">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 2. Register user's face 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="사용자 얼굴 등록" src="https://github.com/noFlowWater/signage_solution/assets/112642604/f4fa27ea-f77b-4dc8-8914-bfe9d90eddf7">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 3. Select User Allergy 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="사용자 알러지 선택" src="https://github.com/noFlowWater/signage_solution/assets/112642604/c4d73443-6c36-4eb9-8caf-a15b70af8eae">
-  </p>
-</details>
-
-### User Login
-
-<details>
-  <summary>🖼️ 1. User Authentication 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="사용자 인식" src="https://github.com/noFlowWater/signage_solution/assets/112642604/999e78e4-031e-4ee0-885a-2683735138b9">
-    <img style="width: 49%;" alt="사용자 확인" src="https://github.com/noFlowWater/signage_solution/assets/112642604/f8ba2823-7dd0-420a-8adc-106e66505853">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 2. User Alternate Authentication 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="대체 인증" src="https://github.com/noFlowWater/signage_solution/assets/112642604/05f5b522-1237-4f15-a699-8b89271df2d8">
-  </p>
-</details>
-
-### Menu 
-
-<details>
-  <summary>🖼️ 1. Custom Menu recommendation 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="메뉴 추천" src="https://github.com/noFlowWater/signage_solution/assets/112642604/101989ca-4f2f-42ef-be41-31651c4bacf6">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 2. Check Menu Allergy/Soldout, Detail 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="알러지:매진 확인" src="https://github.com/noFlowWater/signage_solution/assets/112642604/40395041-7485-4749-878e-212477655be5">
-    <img style="width: 49%;" alt="알러지 확인창" src="https://github.com/noFlowWater/signage_solution/assets/112642604/0bd82e2d-221d-4d94-ad35-da4a7d5be4f0">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 3. Check Shopping Cart & Pay 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="장바구니 확인" src="https://github.com/noFlowWater/signage_solution/assets/112642604/58823132-e6b8-4b13-a667-04b4f535ec82">
-    <img style="width: 49%;" alt="결제 완료" src="https://github.com/noFlowWater/signage_solution/assets/112642604/a0d01536-a62a-4bc7-aac4-8cc9555f21dd">
-  </p>
-</details>
-
-</details>
-<details>
-<summary>🖼️ Admin 🖼️</summary>
-<br>
-
-### Administrator Login
-
-<details>
-  <summary>🖼️ 1. Administrator Login 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="관리자 로그인" src="https://github.com/noFlowWater/signage_solution/assets/112642604/e73aef73-ac9e-4c6e-b058-7fe5dcd4463c">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 2. Administrator Login Failure 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="관리자 비밀번호 체크" src="https://github.com/noFlowWater/signage_solution/assets/112642604/83ae69bb-9e44-4482-bb19-297c15e288d5">
-  </p>
-</details>
-
-### Administrator Menu Management
-
-<details>
-  <summary>🖼️ 1. Administrator Menu List 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="관리자 홈" src="https://github.com/noFlowWater/signage_solution/assets/112642604/6d8d6f01-440e-4b0c-96f8-2c8d2ba21fc9">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 2. Administrator Menu Details 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="관리자 메뉴 상세보기" src="https://github.com/noFlowWater/signage_solution/assets/112642604/5bca34f5-1ab6-49a9-8e0b-bdf6257eb0b2">
-  </p>
-</details>
-
-
-<details>
-  <summary>🖼️ 3. Administrator Menu Registration and Deletion 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/noFlowWater/signage_solution/assets/112642604/bdb89e7e-4208-4aea-9f93-90c3daece562" 
-           alt="관리자 메뉴 등록" 
-           style="width: 49%;">
-    <img src="https://github.com/noFlowWater/signage_solution/assets/112642604/4433ee82-b9fa-43dd-a325-8b84be381131"    
-           alt="관리자 메뉴 수정"
-           style="width: 49%;">
-  </p>
-</details>
-
-### Administrator Password Change
-
-<details>
-  <summary>🖼️ 1. Changing Password (fail 1) 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="admin_change_password_1" src="https://github.com/noFlowWater/signage_solution/assets/112642604/3e66a0d8-ec91-4464-9f4a-6c32f2c897e7">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 2. Changing Password (fail 2) 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="admin_change_password_2" src="https://github.com/noFlowWater/signage_solution/assets/112642604/435dae5a-4e51-480d-8a18-9c6921775a97">
-  </p>
-</details>
-
-<details>
-  <summary>🖼️ 3. Changing Password (success) 🖼️</summary>
-  <p align="center" style="display: flex; justify-content: space-between;">
-    <img style="width: 49%;" alt="admin_change_password_3" src="https://github.com/noFlowWater/signage_solution/assets/112642604/73223ce7-e487-4bbc-80ba-ffc505fd58c3">
-  </p>
-</details>
-
-</details>
+스크린샷 ㄱㄱ 아님 실사진.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -439,9 +263,6 @@ It provides users who use Google OAuth with convenient and no additional members
 [issues-url]: https://github.com/noFlowWater/signage_solution/issues
 [license-shield]: https://img.shields.io/github/license/noFlowWater/signage_solution.svg?style=for-the-badge
 [license-url]: https://github.com/noFlowWater/signage_solution/blob/master/LICENSE.txt
-[webos-shield]: https://img.shields.io/badge/webos%20official%20example-A50034?style=for-the-badge&logo=lg
-[webos-url]: https://www.webosose.org/samples/2023/12/21/facial-recognition-kiosk-using-webos
-[product-screenshot]: images/screenshot.png
 
 [Flutter]: https://img.shields.io/badge/Flutter-02569B.svg?style=for-the-badge&logo=Flutter&logoColor=white
 [Flutter-url]: https://flutter.dev/
@@ -488,30 +309,35 @@ It provides users who use Google OAuth with convenient and no additional members
 [macOS]: https://img.shields.io/badge/macOS-000?style=for-the-badge&logo=macOS&logoColor=fff
 [macOS-url]: https://support.apple.com/ko-kr/macOS
 
-
 [Window]: https://img.shields.io/badge/Windows-0078D4.svg?style=for-the-badge&logo=Windows&logoColor=white
 [Window-url]: https://www.microsoft.com/en-in/windows?r=1
+
 [Notion]: https://img.shields.io/badge/Notion-000000.svg?style=for-the-badge&logo=Notion&logoColor=white
 [Notion-url]: https://www.notion.so/
-
 
 [Skype]: https://img.shields.io/badge/Skype-00AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white
 [Skype-url]: https://skype.com/
 
-
 [GitHub]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
-
 [GitHub-url]: https://github.com/
-
 
 [Git]: https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white
 [Git-url]: https://git-scm.com/
 
-
 [Ubuntu]: https://img.shields.io/badge/Ubuntu-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white
-
 [Ubuntu-url]: https://ubuntu.com/
 
 [Linux]: https://img.shields.io/badge/Linux-FCC624.svg?style=for-the-badge&logo=Linux&logoColor=black
-
 [Linux-url]: https://www.linux.org/
+
+[Firebase]: https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black
+[Firebase-url]: https://firebase.google.com/
+
+[Amazon_AWS]: https://img.shields.io/badge/Amazon%20AWS-232F3E.svg?style=for-the-badge&logo=Amazon-AWS&logoColor=white
+[Amazon_AWS-url]: https://aws.amazon.com/
+
+[Amazon_EC2]: https://img.shields.io/badge/Amazon%20EC2-FF9900.svg?style=for-the-badge&logo=Amazon-EC2&logoColor=white
+[Amazon_EC2-url]: https://aws.amazon.com/ec2/
+
+[KakaoTalk]: https://img.shields.io/badge/KakaoTalk-FFCD00.svg?style=for-the-badge&logo=KakaoTalk&logoColor=black
+[KakaoTalk-url]: https://www.kakaocorp.com/page/service/service/KakaoTalk
