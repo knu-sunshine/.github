@@ -103,8 +103,10 @@ This project uses IoT devices (LED, curtains, sensors) and MQTT for device contr
 <details>
   <summary>🖼️ Database ERD 🖼️</summary>
   <p align="center" style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/noFlowWater/signage_solution/assets/112642604/db15a09a-faa7-4797-8f58-b865d7965681" alt="Database ERD" style="width: 99%;">
+    <img width="845" alt="스크린샷 2024-01-31 오후 6 37 50" src="https://github.com/jinno321/.github/assets/97275777/cb898f22-0679-40d2-8700-29aadfac293a">
   </p>
+<b>*change</b><br>
+    Initially, we set a deviceValue as an anttribute of a device class. but In this case, it is dangerous by it can be used as two meaning. So, we seperated it as a class.
 </details>
 
 
@@ -355,6 +357,54 @@ Each step is detailed in the `README.md` file of the respective folder, allowing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Backend
+
+### File Directory Structure 
+---
+<img width="169" alt="스크린샷 2024-01-31 오후 6 46 52" src="https://github.com/jinno321/.github/assets/97275777/49a03561-319e-4f65-93b8-a8ed3149f138">
+
+We are largely divided into databases, api, and middleware, and the database directory is divided into a schema and a model created using the schema. api is classified according to its function, and middleware has an error handler for error processing.<br>
+
+### Package.json
+---
+<img width="385" alt="스크린샷 2024-01-31 오후 7 14 36" src="https://github.com/jinno321/.github/assets/97275777/18d52b9a-0ab1-479a-af07-fc1862c6cbf8">
+
+<b>dependencies</b>
+"axios": "^1.6.5" => use to open API Weather Source
+"dotenv": "^16.3.1" => load .env File
+"express": "^4.18.2" => to use express.js
+"express-session": "^1.17.3" => to use express-session
+"moment": "^2.30.1" => to calculate on Date
+"mongoose": "^8.0.4" => connect with mongoDB
+"mqtt": "^5.3.4" => communication with IOT by MQTT protocol
+"uuid": "^9.0.1" => use UUID for Database
+<br>
+
+
+
+### Database 
+---
+<img width="164" alt="스크린샷 2024-01-31 오후 7 27 10" src="https://github.com/jinno321/.github/assets/97275777/ddb9f5fe-0d5e-48c3-b0c0-47f474a1533c">
+
+
+We used mongoDB. Since the project had to be carried out within a short period of time, it was decided to use the NOSQL database in anticipation of many changes within the project, and among them, mongoDB with good fluidity and scalability was decided to use. An Object Data Mapping (ODM) library called mongoose was used to connect Node.js and mongoDB.<br>
+<br>Connect.js is executed before execution in app.js, which helps MongoDB proceed. Even if it is executed in duplicate, there is no concern about error occurrence because express.js avoids duplicate connections.<br>
+
+
+### LogIn
+---
+![KakaoTalk_Photo_2024-01-31-19-08-10](https://github.com/jinno321/.github/assets/97275777/46791e19-7df7-4e39-a450-998c91203532)
+
+Login is executed with the above logic.
+It provides users who use Google OAuth with convenient and no additional membership registration is required.<br>
+
+
+
+### MQTT communication with IOT
+---
+
+근찬씨 작성 레스고~
 
 
 
