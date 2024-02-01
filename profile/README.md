@@ -177,51 +177,121 @@ Each step is detailed in the `README.md` file of the respective folder, allowing
 <!-- USAGE EXAMPLES -->
 ## Usage Screenshot 
 
-스크린샷 ㄱㄱ 아님 실사진.
+## LogIn Page
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Home Page
+---
+<div align="center">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/71920f44-3a6b-4f17-9b27-f612b98ba401" alt="After Sunrise" width="30%">
+  <p>Home Page - After Sunrise</p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/cce3965f-c4da-47bd-9e31-1da888626d0b" alt="Before Sunrise" width="30%">
+  <p>Home Page - Before Sunrise</p>
+</div>
+
+
+
+
+## Room Page
+---
+<div align="center">
+  <div style="display: inline-block; text-align: center;">
+    <img src="https://github.com/knu-sunshine/.github/assets/97275777/5a3cb051-c92a-4048-a491-cf94cf16af71" alt="Automode On" width="30%" style="display: block;">
+  </div>
+  <div style="width: 10px; display: inline-block;"></div> <!-- 간격 조절용 -->
+  <div style="display: inline-block; text-align: center;">
+    <img src="https://github.com/knu-sunshine/.github/assets/97275777/046f610d-be95-4053-aec5-8181b59b25bf" alt="Automode Off" width="30%" style="display: block;">
+  </div>
+</div>
+<p>First: Automode On</p>
+<p>Second: Automode Off</p>
+
+
+## Device On
+---
+<div align="center">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/6603c2cb-9b15-46f4-a71d-e86728e08496" alt="Device On" width="30%">
+  <p>can turn on in Room Page</p>
+</div>
+
+## Add Device
+---
+<div align="center">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/af063765-17a0-4cb7-b20e-cce16a3dbc96" alt="Add Device" width="30%">
+  <p>Add Device Modal Home Page</p>
+</div>
+
+
+
+## Device Info
+---
+<div align="center">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/b71eaa20-7e3f-48cd-bafb-d5f6e5bb3067" alt="Device 1" width="30%" style="display: inline-block;">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/a5cec2e4-5087-4d3e-8ee8-846e1cde89ee" alt="Device 2" width="30%" style="display: inline-block;">
+</div>
+
+## WakeUp Value Configuration Modal
+---
+<div align="center">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/89ba2db2-219a-4117-b456-5227e10253f5" alt="Modal 1" width="30%" style="display: inline-block;">
+  <img src="https://github.com/knu-sunshine/.github/assets/97275777/6ccdec9f-2826-451b-9126-c02b1625e274" alt="Modal 2" width="30%" style="display: inline-block;">
+</div>
+
+
+
+
 
 
 ## Backend
 
 ### File Directory Structure 
 ---
-<img width="169" alt="스크린샷 2024-01-31 오후 6 46 52" src="https://github.com/jinno321/.github/assets/97275777/49a03561-319e-4f65-93b8-a8ed3149f138">
+<div align="center">
+  <img width="169" alt="File Directory Structure" src="https://github.com/jinno321/.github/assets/97275777/49a03561-319e-4f65-93b8-a8ed3149f138">
+</div>
 
 We are largely divided into databases, api, and middleware, and the database directory is divided into a schema and a model created using the schema. api is classified according to its function, and middleware has an error handler for error processing.<br>
 
 ### Package.json
 ---
-<img width="385" alt="스크린샷 2024-01-31 오후 7 14 36" src="https://github.com/jinno321/.github/assets/97275777/18d52b9a-0ab1-479a-af07-fc1862c6cbf8">
+<div align="center">
+  <img width="385" alt="Package.json" src="https://github.com/jinno321/.github/assets/97275777/18d52b9a-0ab1-479a-af07-fc1862c6cbf8">
+</div>
 
-<b>dependencies</b>
-"axios": "^1.6.5" => use to open API Weather Source
-"dotenv": "^16.3.1" => load .env File
-"express": "^4.18.2" => to use express.js
-"express-session": "^1.17.3" => to use express-session
-"moment": "^2.30.1" => to calculate on Date
-"mongoose": "^8.0.4" => connect with mongoDB
-"mqtt": "^5.3.4" => communication with IOT by MQTT protocol
-"uuid": "^9.0.1" => use UUID for Database
+**dependencies**
+- "axios": "^1.6.5" => use to open API Weather Source
+- "dotenv": "^16.3.1" => load .env File
+- "express": "^4.18.2" => to use express.js
+- "express-session": "^1.17.3" => to use express-session
+- "moment": "^2.30.1" => to calculate on Date
+- "mongoose": "^8.0.4" => connect with mongoDB
+- "mqtt": "^5.3.4" => communication with IOT by MQTT protocol
+- "uuid": "^9.0.1" => use UUID for Database
 <br>
-
-
 
 ### Database 
 ---
-<img width="164" alt="스크린샷 2024-01-31 오후 7 27 10" src="https://github.com/jinno321/.github/assets/97275777/ddb9f5fe-0d5e-48c3-b0c0-47f474a1533c">
-
+<div align="center">
+  <img width="164" alt="Database" src="https://github.com/jinno321/.github/assets/97275777/ddb9f5fe-0d5e-48c3-b0c0-47f474a1533c">
+</div>
 
 We used mongoDB. Since the project had to be carried out within a short period of time, it was decided to use the NOSQL database in anticipation of many changes within the project, and among them, mongoDB with good fluidity and scalability was decided to use. An Object Data Mapping (ODM) library called mongoose was used to connect Node.js and mongoDB.<br>
 <br>Connect.js is executed before execution in app.js, which helps MongoDB proceed. Even if it is executed in duplicate, there is no concern about error occurrence because express.js avoids duplicate connections.<br>
 
-
 ### LogIn
 ---
-![KakaoTalk_Photo_2024-01-31-19-08-10](https://github.com/jinno321/.github/assets/97275777/46791e19-7df7-4e39-a450-998c91203532)
+<div align="center">
+  <img src="https://github.com/jinno321/.github/assets/97275777/46791e19-7df7-4e39-a450-998c91203532" alt="Login">
+</div>
 
 Login is executed with the above logic.
 It provides users who use Google OAuth with convenient and no additional membership registration is required.<br>
+
 
 
 
